@@ -1,0 +1,107 @@
+body {
+    margin: 8px;
+    padding: 10px;
+    display: block;
+    background: whitesmoke;
+   }
+
+h2 {
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+}
+
+#easterEgg {
+    text-align: center;
+    font-size: 12px;
+    color:white;
+}
+
+#easterEgg:hover {
+    color: red;
+}
+
+#ingredientArticle {
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'Judson', serif;
+    color:black;
+    display:none;
+}
+
+#footer {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    color: black;
+    white-space: nowrap;
+}
+
+#ingredient {
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+    max-width: 75%;
+    max-height: 75%;
+}
+
+#ingredient:hover {
+    filter: grayscale(0%);
+}
+
+#mainHeading {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 10vw;
+    text-align: center;
+    color: black; /* this should be red, but hard red sucks, added it to the other part of the id*/
+    transition: color 0.5s ease;
+    white-space: nowrap;
+}
+
+#mainHeading:hover {
+    transition: color 0.5s ease;
+    color: red;
+}
+
+#subHeading {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    color: black; 
+    white-space: nowrap;
+}
+
+#testP {
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'Judson', serif;
+    transition: color 0.5s ease;
+}
+
+.funParagraph:hover {
+    transition: color 0.5s ease;
+    color: green;
+}
+
+.line {
+    height: 3px;
+    margin: 10px;
+    background-color: black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.item {
+    padding:10px;
+}
+
+
+
+.article {
+    display:hidden;
+}
+
